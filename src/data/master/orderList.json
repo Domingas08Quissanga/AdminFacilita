@@ -1,8 +1,8 @@
 {
-    "pageTitle": "order list",
+    "pageTitle": "lista de pedidos",
     "breadcrumb": [
-        { "path": "/", "text": "home" },
-        { "text": "order-list" }
+        { "path": "/", "text": "inicio" },
+        { "text": "lista de pedidos" }
     ],
     "dotsMenu": {
         "dots": "more_horiz",

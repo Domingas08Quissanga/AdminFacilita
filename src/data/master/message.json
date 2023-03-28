@@ -3,15 +3,15 @@
         "type": "search",
         "icon": "search",
         "fieldSize": "w-100 h-sm",
-        "placeholder": "Search username"
+        "placeholder": "Pesquisar o número de usuário"
     },
     "dots": {
         "icon": "dialpad",
         "menu": [
-            { "icon": "account_circle", "text": "active users" },
-            { "icon": "question_answer", "text": "all conversations" },
-            { "icon": "mark_chat_unread", "text": "unread messages" },
-            { "icon": "mark_chat_read", "text": "read messages" }
+            { "icon": "account_circle", "text": "usuários activos" },
+            { "icon": "question_answer", "text": "todas as conversas" },
+            { "icon": "mark_chat_unread", "text": "mensagens não lidas" },
+            { "icon": "mark_chat_read", "text": "ler mensagens"}
         ]
     },
     "profDots": {

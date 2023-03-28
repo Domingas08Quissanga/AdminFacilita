@@ -1,18 +1,18 @@
-{
-    "pageTitle": "product upload",
+ {
+    "pageTitle": "Cadastrar produto",
     "breadcrumb": [
-        { "path": "/", "text": "home" },
-        { "text": "product" },
-        { "text": "upload" }
+        { "path": "/", "text": "inicio" },
+        { "text": "produtos" },
+        { "text": "subir" }
     ],
-    "title": "add new product",
-    "button": { "path": "#", "icon": "visibility", "text": "show all products" },
+    "title": "adicionar novo produto",
+    "button": { "path": "#", "icon": "visibility", "text": "mostrar todos os produtos" },
     "dotsMenu": {
         "dots": "more_horiz",
         "dropdown": [
-            { "icon": "edit", "text": "edit" },
-            { "icon": "delete", "text": "delete" },
-            { "icon": "download", "text": "download" }
+            { "icon": "edit", "text": "editar" },
+            { "icon": "delete", "text": "apagar" },
+            { "icon": "download", "text": "baixar" }
         ]
     }
     

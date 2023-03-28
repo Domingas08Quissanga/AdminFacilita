@@ -1,16 +1,16 @@
 {
-    "pageTitle": "product list",
+    "pageTitle": "Lista de produtos",
     "breadcrumb": [
-        { "path": "/", "text": "home" },
+        { "path": "/", "text": "inicio" },
         { "text": "product" },
         { "text": "list" }
     ],
     "dotsMenu": {
         "dots": "more_horiz",
         "dropdown": [
-            { "icon": "edit", "text": "edit" },
-            { "icon": "delete", "text": "delete" },
-            { "icon": "download", "text": "download" }
+            { "icon": "edit", "text": "editar" },
+            { "icon": "delete", "text": "Apagar" },
+            { "icon": "download", "text": "baixar" }
         ]
     },
     "float": [

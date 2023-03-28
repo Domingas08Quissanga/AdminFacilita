@@ -1,44 +1,44 @@
 {
     "navs": [
         {
-            "title": "master",
+            "title": "",
             "menu": [
                 { 
                     "icon": "dashboard", 
-                    "text": "dashboard",
+                    "text": "geral",
                     "submenu": [
                         { "href": "/ecommerce", "text": "ecommerce" },
-                        { "href": "/analytics", "text": "analytics" },
+                        { "href": "/analytics", "text": "dados analíticos" },
                         { "href": "/crm", "text": "CRM" }
                     ]
                 },
                 { 
                     "icon": "lock", 
-                    "text": "authentication",
+                    "text": "autenticação",
                     "submenu": [
-                        { "href": "/login", "text": "login" },
-                        { "href": "/register", "text": "registration" },
-                        { "href": "/forgot-password", "text": "forgot password" }
+                        { "href": "/login", "text": "entrar" },
+                        { "href": "/register", "text": "cadastramento" },
+                        { "href": "/forgot-password", "text": "esqueceu a senha" }
                     ]
                 },
                 { 
                     "icon": "account_circle", 
-                    "text": "users", 
+                    "text": "usuários", 
                     "badge": { "text": "hot", "variant": "red square" },
                     "submenu": [
-                        { "href": "/user-list", "text": "user list" },
-                        { "href": "/user-profile", "text": "user profile" },
-                        { "href": "/my-account", "text": "my account" }
+                        { "href": "/user-list", "text": "lista de usuários" },
+                        { "href": "/user-profile", "text": "perfil do usuário" },
+                        { "href": "/my-account", "text": "minha conta" }
                     ]
                 },
                 { 
                     "icon": "pix", 
-                    "text": "products",
-                    "badge": { "text": "new", "variant": "purple square" },
+                    "text": "produtos",
+                    "badge": { "text": "novo", "variant": "purple square" },
                     "submenu": [
-                        { "href": "/product-list", "text": "product list" },
-                        { "href": "/product-view", "text": "product view" },
-                        { "href": "/product-upload", "text": "product upload" }
+                        { "href": "/product-list", "text": "lista de produtos" },
+                        { "href": "/product-view", "text": "ver produtos" },
+                        { "href": "/product-upload", "text": "cadastrar produtos" }
                     ]
                 },
                 { 
@@ -53,25 +53,25 @@
                 { 
                     "href": "/order-list",
                     "icon": "shopping_cart", 
-                    "text": "orders",
+                    "text": "pedidos",
                     "badge": { "text": "05", "variant": "primary round" }
                 },
                 { 
                     "href": "/message",
                     "icon": "email", 
-                    "text": "messages",
+                    "text": "mensagens",
                     "badge": { "text": "03", "variant": "primary round" }
                 },
                 { 
                     "href": "/notification",
                     "icon": "notifications", 
-                    "text": "notifications",
+                    "text": "notificações",
                     "badge": { "text": "9+", "variant": "primary round" }
                 },
                 { 
                     "href": "/settings",
                     "icon": "settings", 
-                    "text": "settings" 
+                    "text": "definições" 
                 },
                 { 
                     "href": "/blank-page",
@@ -147,6 +147,6 @@
             ]
         }
     ],
-    "button": { "icon": "lock", "path": "/login", "text": "logout" }
+    "button": { "icon": "lock", "path": "/login", "text": "sair" }
 
 }

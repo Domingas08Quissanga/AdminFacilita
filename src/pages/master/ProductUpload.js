@@ -26,11 +26,11 @@ export default function ProductUpload() {
                 </Col>
                 <Col xl={7}>
                     <CardLayout>
-                        <CardHeader title="basic information" dotsMenu={ data?.dotsMenu }  />
+                        <CardHeader title="informacoes basicas" dotsMenu={ data?.dotsMenu }  />
                         <Row>
                             <Col xl={12}><LabelField type="text" label="title" fieldSize="w-100 h-md" /></Col>
                             <Col xl={12}><LabelTextarea label="description" fieldSize="w-100 h-text-md" /></Col>
-                            <Col xl={6}><LabelField label="category" option={['mans', 'womans', 'accessory']} fieldSize="w-100 h-md" /></Col>
+                            <Col xl={6}><LabelField label="categoria" option={['frutas', 'vegetais', 'verduras']} fieldSize="w-100 h-md" /></Col>
                             <Col xl={6}><LabelField label="brand" option={['richman', 'lubana', 'ecstasy']} fieldSize="w-100 h-md" /></Col>
                             <Col xl={6}><LabelField type="text" label="regular price" fieldSize="w-100 h-md" /></Col>
                             <Col xl={6}><LabelField type="text" label="discount price" fieldSize="w-100 h-md" /></Col>
@@ -65,10 +65,10 @@ export default function ProductUpload() {
                         </Row>
                     </CardLayout>
                     <CardLayout>
-                        <CardHeader title="specification" dotsMenu={ data?.dotsMenu }  />
+                        <CardHeader title="especificações" dotsMenu={ data?.dotsMenu }  />
                         <Row>
-                            <Col xl={6}><LabelField label="size" option={['sm', 'md', 'lg', 'xl', 'xxl']} fieldSize="w-100 h-multiple" multiple/></Col>
-                            <Col xl={6}><LabelField label="color" option={['red', 'green', 'blue', 'pink', 'black']} fieldSize="w-100 h-multiple" multiple/></Col>
+                            <Col xl={6}><LabelField label="tamanho" option={['sm', 'md', 'lg', 'xl', 'xxl']} fieldSize="w-100 h-multiple" multiple/></Col>
+                            <Col xl={6}><LabelField label="cor" option={['red', 'green', 'blue', 'pink', 'black']} fieldSize="w-100 h-multiple" multiple/></Col>
                             <Col xl={6}><LabelField type="text" label="stock" fieldSize="w-100 h-md" /></Col>
                             <Col xl={6}><LabelField type="text" label="weight" fieldSize="w-100 h-md" /></Col>
                         </Row>
@@ -78,10 +78,10 @@ export default function ProductUpload() {
                     <CardLayout>
                         <CardHeader title="media &amp; published" dotsMenu={ data?.dotsMenu }  />
                         <Box className="mc-product-upload-media">
-                            <Box className="mc-product-upload-image"><Image src="images/product/single/01.webp" alt="product" /></Box>
-                            <Box className="mc-product-upload-image"><Image src="images/product/single/02.webp" alt="product" /></Box>
-                            <Box className="mc-product-upload-image"><Image src="images/product/single/03.webp" alt="product" /></Box>
-                            <Box className="mc-product-upload-image"><Image src="images/product/single/04.webp" alt="product" /></Box>
+                            <Box className="mc-product-upload-image"><Image src="images/product/single/ananas.jpg" alt="product" /></Box>
+                            <Box className="mc-product-upload-image"><Image src="images/product/single/broculis.jpg" alt="product" /></Box>
+                            <Box className="mc-product-upload-image"><Image src="images/product/single/cenoura.jpg" alt="product" /></Box>
+                            <Box className="mc-product-upload-image"><Image src="images/product/single/couve.jpg" alt="product" /></Box>
                             <Box className="mc-product-upload-file">
                                 <Input type="file" id="product" onChange={(e)=> setUploadFile(e.target.files[0].name)} />
                                 <Label htmlFor="product"><Icon type="collections" /><Text>{ uploadFile }</Text></Label>
@@ -89,7 +89,7 @@ export default function ProductUpload() {
                         </Box>
                         <Anchor 
                             className="mc-btn w-100 primary mt-5" 
-                            text="publish &amp; view" 
+                            text="publicar &amp; ver" 
                             icon="cloud_upload" 
                             href="#"
                         />

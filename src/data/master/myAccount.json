@@ -1,15 +1,15 @@
 {
-    "pageTitle": "my account",
+    "pageTitle": "minha conta",
     "breadcrumb": [
-        { "path": "/", "text": "home" },
-        { "path": "/user-list", "text": "user-list" },
+        { "path": "/", "text": "início" },
+        { "path": "/user-list", "text": "lista de usuários" },
         { "text": "my-account" }
     ],
-    "id": { "title": "unique id", "value": "#783404edft97e3445" },
-    "name": { "title": "fullname", "value": "Miron Mahmud" },
-    "username": { "title": "username", "value": "@mironcoder" },
+    "id": { "title": "id único", "value": "#783404edft97e3445" },
+    "name": { "title": "nome completo", "value": "Miron Mahmud" },
+    "username": { "title": "nome de usuário", "value": "@domingas" },
     "role": { "title": "role", "activeOption": "member", "option": ["member", "admin", "vendor", "founder"] },
-    "status": { "title": "status", "activeOption": "approved", "option": ["approved", "pending", "blocked"] },
+    "status": { "title": "status", "activeOption": "approved", "option": ["aprovado", "pendente", "bloqueado"] },
     "bio": { "title": "biography", "longText": "I consider myself as a creative, professional and a flexible person. I can adapt with any kind of brief and design style" },
     "email": { "title": "email", "value": "demo@example.com" },
     "phone": { "title": "phone", "value": "+8801838288389" },

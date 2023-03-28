@@ -1,68 +1,61 @@
 {
     "logo": {
         "path": "/ecommerce",
-        "src": "images/logo.webp",
-        "alt": "blue",
-        "name": "hotash"
+        "src": "images/logo.svg",
+        "alt": "green",
+        "name": "facilita"
     },
     "pattern": { 
         "src": "images/pattern.webp", 
         "alt": "line-pattern" 
     },
     "title": {
-        "banner": "Best ux/ui fashion ecommerce dashboard & admin panel",
-        "from": "Register a new account"
+       
     },
-    "descrip": "Elit Iusto dolore libero recusandae dolor dolores explicabo ullam cum facilis aperiam   alias odio quam excepturi molestiae omnis inventore. Repudiandae officia placeat amet consectetur dicta dolorem quo",
-    "anchor": { "icon": "home", "text": "Back to Home", "path": "/ecommerce" },
+    "descrip": "entra para o facilita e venda os teus negócios ou gerencie",
+    "anchor": { "icon": "home", "text": "voltar ao início", "path": "/ecommerce" },
     "input": [
         { 
             "icon": "account_circle", 
             "type": "text", 
-            "placeholder": "Enter your name",
+            "placeholder": "insira o teu nome",
             "fieldSize": "h-sm"
         },
         { 
             "icon": "email", 
             "type": "email", 
-            "placeholder": "Enter your email",
+            "placeholder": "insira o teu email",
             "fieldSize": "h-sm"
         },
         { 
             "icon": "lock", 
             "type": "password", 
-            "placeholder": "Enter your password",
+            "placeholder": "insira a senha",
             "fieldSize": "h-sm",
             "passwordVisible" : true
         },
         { 
             "icon": "verified_user", 
             "type": "password", 
-            "placeholder": "Enter repeat password",
+            "placeholder": "repete a senha",
             "fieldSize": "h-sm",
             "passwordVisible" : true
         }
     ],
-    "checkLabel": "I agree to the all Terms & Condiotions",
-    "button": { "type": "button", "text": "sign up", "fieldSize": "h-sm" },
-    "divide": { "text": "or" },
+    "checkLabel": "eu concordo com todos os termos e condições",
+    "button": { "type": "button", "text": "criar", "fieldSize": "h-sm" },
+    "divide": { "text": "ou" },
     "connect": [
         { 
-            "path": "#", 
-            "classes": "twitter h-sm", 
-            "icon": "icofont-twitter", 
-            "text": "Continue with Twitter" 
+           
         },
         { 
-            "path": "#", 
-            "classes": "facebook h-sm", 
-            "icon": "icofont-facebook", 
-            "text": "Continue with Facebook" 
+            
         }
     ],
     "navigate": {
-        "title": "Already have an account?",
+        "title": "já tenho uma conta",
         "path": "/login",
-        "text": "login"
+        "text": "entrar"
     }
 }

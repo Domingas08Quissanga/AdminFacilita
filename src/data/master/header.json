@@ -1,9 +1,9 @@
 {
     "logo": {
         "path": "/ecommerce",
-        "src": "images/logo.webp",
+        "src": "images/Logo.svg",
         "alt": "blue",
-        "name": "hotash"
+        "name": "Facilita"
     },
     "toggle": { 
         "open": "menu_open", 
@@ -11,11 +11,11 @@
     },
     "search":{
         "icon": "search",
-        "placeholder": "Quick finding..." 
+        "placeholder": "Pesquisa Rápida" 
     },
     "theme": {
         "icon": { "light": "light_mode", "dark": "dark_mode" },
-        "title": "Theme Mode",
+        "title": "",
         "addClass": "theme"
     },
     "language": {
@@ -23,11 +23,7 @@
         "title": "Languages",
         "addClass": "language",
         "dropdown": [
-            { "flag": "images/flag/bangladesh.webp", "name": "bengali", "check": "active" },
-            { "flag": "images/flag/germany.webp", "name": "germany" },
-            { "flag": "images/flag/saudi.webp", "name": "arabic" },
-            { "flag": "images/flag/usa.webp", "name": "english" },
-            { "flag": "images/flag/sa.webp", "name": "african" }
+           
         ]
     },
     "cart": {
@@ -36,7 +32,7 @@
         "addClass": "cart",   
         "badge": { "text": "02", "variant": "primary" },
         "dropdown": {
-            "title": "Orders",
+            "title": "pedidos",
             "dotsMenu": {
                 "dots": "settings",
                 "dropdown": [
@@ -63,10 +59,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "apagar " },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -83,10 +79,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "bloquear" },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -102,10 +98,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "apagar" },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -121,10 +117,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "apagar" },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -140,10 +136,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "apagar" },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -159,10 +155,10 @@
                     "more": {
                         "icon": "more_vert",
                         "menu": [
-                            { "icon": "account_circle", "text": "view profile" },
-                            { "icon": "mark_chat_read", "text": "mark as unread" },
-                            { "icon": "delete", "text": "delete order" },
-                            { "icon": "remove_circle", "text": "block order" }
+                            { "icon": "account_circle", "text": "ver perfil" },
+                            { "icon": "mark_chat_read", "text": "marcar como não lido" },
+                            { "icon": "delete", "text": "apagar" },
+                            { "icon": "remove_circle", "text": "bloquear" }
                         ]
                     }
                 },
@@ -205,7 +201,7 @@
             },
             "button": { 
                 "path": "/message", 
-                "label": "view all message" 
+                "label": "ver todas as mensagens" 
             },
             "items": [
                 {
@@ -360,7 +356,7 @@
                 {
                     "path": "#",
                     "addClass": "active",
-                    "notify": { "image": "images/avatar/01.webp", "variant": "red", "icon": "favorite" },
+                    "notify": { "image": "", "variant": "red", "icon": "favorite" },
                     "note": "<b>Mahmudul</b> added to his favorite list <b>Leather belt steve madden</b>",
                     "longMoment": "few seconds ago!",
                     "more": {
@@ -375,7 +371,7 @@
                 {
                     "path": "#",
                     "addClass": "active",
-                    "notify": { "image": "images/avatar/02.webp", "variant": "green", "icon": "forum" },
+                    "notify": { "image": "", "variant": "green", "icon": "forum" },
                     "note": "<b>labonno</b> leave her comment to <b>Dressni Breathable female Dress</b>",
                     "longMoment": "25 minutes ago!",
                     "more": {
@@ -390,7 +386,7 @@
                 {
                     "path": "#",
                     "addClass": "active",
-                    "notify": { "image": "images/avatar/03.webp", "variant": "blue", "icon": "campaign" },
+                    "notify": { "image": "", "variant": "blue", "icon": "campaign" },
                     "note": "<b>tahmina</b> announce to 50% discount <b>New Exclusive long kurti</b>",
                     "longMoment": "12 hours ago!",
                     "more": {
@@ -405,7 +401,7 @@
                 {
                     "path": "#",
                     "addClass": "active",
-                    "notify": { "image": "images/avatar/04.webp", "variant": "purple", "icon": "edit" },
+                    "notify": { "image": "", "variant": "purple", "icon": "edit" },
                     "note": "<b>jubayer</b> write to his latest blog <b>Best fashion outfit this winter</b>",
                     "longMoment": "4 days ago!",
                     "more": {
@@ -419,7 +415,7 @@
                 },
                 {
                     "path": "#",
-                    "notify": { "image": "images/avatar/05.webp", "variant": "yellow", "icon": "star" },
+                    "notify": { "image": "", "variant": "yellow", "icon": "star" },
                     "note": "<b>rebeka</b> give a review to <b>Exclusive Designed Multicolor long Kaptan</b>",
                     "longMoment": "1 weeks ago!",
                     "more": {
@@ -449,13 +445,13 @@
         }
     },
     "profile": {
-        "name": "miron mahmud",
-        "username": "@mironcoder",
-        "image": "images/avatar/01.webp",
+        "name": "Domingas Quissanga",
+        "username": "@daisy",
+        "image": "images/avatar/tipopasse.jpg",
         "dropdown": [
-            { "path": "/my-account", "icon": "person", "text": "my account" },
-            { "path": "/forgot-password", "icon": "privacy_tip", "text": "reset password" },
-            { "path": "/login", "icon": "lock", "text": "logout" }
+            { "path": "/my-account", "icon": "person", "text": "minha conta" },
+            { "path": "/forgot-password", "icon": "privacy_tip", "text": "recuperar a senha" },
+            { "path": "/login", "icon": "lock", "text": "sair" }
         ]
     }
 }

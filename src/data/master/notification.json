@@ -18,8 +18,8 @@
             "path": "#",
             "src": "images/avatar/01.webp",
             "alt": "avatar",
-            "icon": { "variant": "favorite", "label": "favorite" },
-            "note": { "user": "Autoland", "text": "added to his favorite list", "reason": "Mercedez benz super mclaren" },
+            "icon": { "variant": "favorite", "label": "favorito" },
+            "note": { "user": "Autoland", "text": "adicionar na lista de favoritos", "reason": "Mercedez benz super mclaren" },
             "time": "about few minutes ago!",
             "button": "close"
         },
@@ -27,14 +27,14 @@
             "path": "#",
             "src": "images/avatar/02.webp",
             "alt": "avatar",
-            "icon": { "variant": "rating", "label": "star" },
+            "icon": { "variant": "rating", "label": "estrela" },
             "note": { "user": "Autoland", "text": "just review on", "reason": "Mercedez benz super mclaren" },
             "time": "about few minutes ago!",
             "button": "close"
         },
         {
             "path": "#",
-            "src": "images/avatar/03.webp",
+            "src": "images/avatar/tipopasse.jpg",
             "alt": "avatar",
             "icon": { "variant": "comment", "label": "forum" },
             "note": { "user": "Autoland", "text": "just comment on", "reason": "Mercedez benz super mclaren" },
@@ -45,7 +45,7 @@
             "path": "#",
             "src": "images/avatar/04.webp",
             "alt": "avatar",
-            "icon": { "variant": "announce", "label": "campaign" },
+            "icon": { "variant": "announce", "label": "campanha" },
             "note": { "user": "Autoland", "text": "announce on", "reason": "Mercedez benz super mclaren" },
             "time": "about few minutes ago!",
             "button": "close"

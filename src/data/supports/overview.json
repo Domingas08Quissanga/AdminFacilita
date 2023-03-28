@@ -2,14 +2,9 @@
     "banner": {
         "logo": "images/Logo.svg",
         "title": "Área de gerenciamento",
-        "descrip": "This template built with powerful user interface and highly responsive experience with a versatile dashboard such as CRM, eCommerce, and analytics.",
-        "subtitle": "build with -"
+        "descrip": "Área reservada para o controle do seu negócio em geral."    
     },
-    "tools": [
-        "images/tools/react.webp",
-        "images/tools/sass.webp",
-        "images/tools/bs.webp"
-    ],
+    
     "demos": [
         { 
             "image": "images/pages/ecommerce.webp", 
@@ -29,32 +24,32 @@
         { 
             "image": "images/pages/user-list.webp", 
             "path": "/user-list", 
-            "title": "user list" 
+            "title": "lista de usuários" 
         },
         { 
             "image": "images/pages/user-profile.webp", 
             "path": "/user-profile", 
-            "title": "user profile" 
+            "title": "perfil de usuário" 
         },
         { 
             "image": "images/pages/my-account.webp", 
             "path": "/my-account", 
-            "title": "my account" 
+            "title": "minha conta" 
         },
         { 
             "image": "images/pages/product-list.webp", 
             "path": "/product-list", 
-            "title": "product list" 
+            "title": "lista de produtos" 
         },
         { 
             "image": "images/pages/product-view.webp", 
             "path": "/product-view", 
-            "title": "product view" 
+            "title": "ver produtos" 
         },
         { 
             "image": "images/pages/product-upload.webp", 
             "path": "/product-upload", 
-            "title": "product upload" 
+            "title": "baixar produtos" 
         },
         { 
             "image": "images/pages/invoice-list.webp", 
@@ -69,37 +64,37 @@
         { 
             "image": "images/pages/settings.webp", 
             "path": "/settings", 
-            "title": "settings" 
+            "title": "configurações" 
         },
         { 
             "image": "images/pages/order-list.webp", 
             "path": "/order-list", 
-            "title": "orders" 
+            "title": "pedidos" 
         },
         { 
             "image": "images/pages/message.webp", 
             "path": "/message", 
-            "title": "messages" 
+            "title": "mensagens" 
         },
         { 
             "image": "images/pages/notification.webp", 
             "path": "/notification", 
-            "title": "notifications" 
+            "title": "notificações" 
         },
         { 
             "image": "images/pages/login.webp", 
             "path": "/login", 
-            "title": "login" 
+            "title": "entrar" 
         },
         { 
             "image": "images/pages/registration.webp", 
             "path": "/register", 
-            "title": "registration" 
+            "title": "cadastro" 
         },
         { 
             "image": "images/pages/forgot-password.webp", 
             "path": "/forgot-password", 
-            "title": "forgot password" 
+            "title": "esqueceu a senha" 
         },
         { 
             "image": "images/pages/error.webp", 

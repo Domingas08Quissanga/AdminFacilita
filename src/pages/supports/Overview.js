@@ -12,19 +12,14 @@ export default function Overview() {
                     <Logo href="/" src={ data?.banner.logo } alt="logo" name="Facilita" className="lg" />
                     <Heading as="h1">{ data?.banner.title }</Heading>
                     <Text>{ data?.banner.descrip }</Text>
-                    <Box className="tools">
-                        <Heading>{ data?.banner.subtitle }</Heading>
-                        {data?.tools.map((tool, index) => (
-                            <Image key={ index } src={ tool } alt="tools" />
-                        ))}
-                    </Box>
+                  
                     <Anchor 
                         href="/ecommerce" 
                         target="_blank" 
                         icon="launch" 
-                        text="explore now" 
+                        text="explorar agora" 
                         rel="noopener noreferrer"
-                        className="mc-btn primary"
+                        className="btn btn-success m-2"
                     />
                 </Container>
             </Section>
@@ -51,15 +46,15 @@ export default function Overview() {
             <Section className="mc-overview-footer">
                 <Heading as="h2">Quer explorar mais esta área?</Heading>
                 <a 
-                    href="https://themeforest.net/item/hotash-react-admin-dashboard-template/40188968/support" 
+                    href="/" 
                     target="_blank" 
                     rel="noopener noreferrer" 
-                    className="mc-btn primary" 
+                    className="btn btn-success m-2" 
                 >
-                    <i className="material-icons">forum</i>
-                    <span>contact us</span>
+                    <i className="material-icons"></i>
+                    <span>contacte-nos</span>
                 </a>
-                <Text>Hotash | © Copyrights by <Text as="span">Mironcoder</Text></Text>
+                <Text> Facilita <Text as="span">Angola</Text></Text>
             </Section>
         </Box>
     )
